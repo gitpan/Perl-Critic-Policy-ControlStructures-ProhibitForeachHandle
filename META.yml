@@ -1,0 +1,44 @@
+---
+abstract: "Critique 'for ( <fubar> )' {...} and friends"
+author:
+  - 'Thomas R. Wyant, III (wyant at cpan dot org)'
+build_requires:
+  Carp: 0
+  lib: 0
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132661'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Perl-Critic-Policy-ControlStructures-ProhibitForeachHandle
+no_index:
+  directory:
+    - doc
+    - examples
+    - inc
+    - tools
+    - xt
+  file:
+    - TODO.pod
+provides:
+  Perl::Critic::Policy::ControlStructures::ProhibitForeachHandle:
+    file: lib/Perl/Critic/Policy/ControlStructures/ProhibitForeachHandle.pm
+    version: 0.000_01
+recommends:
+  File::Which: 0
+  Readonly::XS: 0
+requires:
+  PPI::Token::Symbol: 0
+  Perl::Critic::Document: 1.119
+  Perl::Critic::Policy: 1.119
+  Perl::Critic::Utils: 1.119
+  Readonly: 0
+  base: 0
+  perl: 5.006001
+  strict: 0
+  warnings: 0
+resources:
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Perl-Critic-Policy-ControlStructures/ProhibitForeachHandle
+  license: http://dev.perl.org/licenses/
+version: 0.000_01
